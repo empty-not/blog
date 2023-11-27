@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://yzccjg.github.io/blog/</link>
+    <link>https://empty-not.github.io/blog/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Nov 2023 14:37:52 +0800</lastBuildDate>
-    <atom:link href="https://yzccjg.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://empty-not.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shez</title>
-      <link>https://yzccjg.github.io/blog/%E5%BF%83%E5%AD%A6/shez/</link>
+      <link>https://empty-not.github.io/blog/%E5%BF%83%E5%AD%A6/shez/</link>
       <pubDate>Sat, 25 Nov 2023 14:37:52 +0800</pubDate>
-      <guid>https://yzccjg.github.io/blog/%E5%BF%83%E5%AD%A6/shez/</guid>
+      <guid>https://empty-not.github.io/blog/%E5%BF%83%E5%AD%A6/shez/</guid>
       <description></description>
     </item>
     <item>
       <title>使用hugo搭建博客的详细教程</title>
-      <link>https://yzccjg.github.io/blog/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</link>
+      <link>https://empty-not.github.io/blog/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</link>
       <pubDate>Sat, 25 Nov 2023 14:25:40 +0800</pubDate>
-      <guid>https://yzccjg.github.io/blog/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</guid>
+      <guid>https://empty-not.github.io/blog/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</guid>
       <description>如何使用hugo搭建博客 注册github账号，新建一个仓库，名字随便定义
 本地新建hugo站点
 hugo new site blog 对该hugo站点进行git初始化
