@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://yzccjg.github.io/blog/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Nov 2023 14:37:52 +0800</lastBuildDate>
+    <atom:link href="https://yzccjg.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shez</title>
+      <link>https://yzccjg.github.io/blog/%E5%BF%83%E5%AD%A6/shez/</link>
+      <pubDate>Sat, 25 Nov 2023 14:37:52 +0800</pubDate>
+      <guid>https://yzccjg.github.io/blog/%E5%BF%83%E5%AD%A6/shez/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>使用hugo搭建博客的详细教程</title>
+      <link>https://yzccjg.github.io/blog/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sat, 25 Nov 2023 14:25:40 +0800</pubDate>
+      <guid>https://yzccjg.github.io/blog/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</guid>
+      <description>如何使用hugo搭建博客 注册github账号，新建一个仓库，名字随便定义
+本地新建hugo站点
+hugo new site blog 对该hugo站点进行git初始化
+cd blog git init 加载自己想要的主题
+git submodule add https://github.com/yzccjg/dark-theme-editor.git themes/dark-theme-editor # https://github.com/yzccjg/dark-theme-editor.git是该主题的地址， # themes意思是加载到本地文件的这个目录下， # dark-theme-editor这个名字自定义 加载完成后需要更改根目录下的hugo.toml文件，添加一行代码如下： theme = &amp;#39;dark-theme-editor&amp;#39; 创建一篇文章并测试是否正确
+hugo new 搭建hugo博客的详细教程.md 将“搭建hugo博客的详细教程.md”中的 draft: true改为draft: false 随便写点内容，然后进行测试 hugo server 如果在浏览器中能够访问，说明一切正常 将本地仓库和github远程仓库进行关联
+设置token，在github的开发者设置中，找到token设置，选择classic
+选择该token的权限，记得勾选workflow，如果忘记了勾选，后面也可以更改
+具体配置
+查看和清除旧的配置 git config --global -l #查看全局配置 git config --global --edit #删除全局配置，这个得会vim、 下面两条是笨方法进行配置 git config --global --unset user.name git config --global --unset user.email 配置全局用户和邮箱，这个如果没有配置，在push代码时会自动提示 git config --global user.</description>
+    </item>
+  </channel>
+</rss>
